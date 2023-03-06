@@ -9,7 +9,7 @@ class customer(models.Model):
     email = models.CharField(max_length=100)
     location = models.CharField(max_length=100)
     state = models.CharField(max_length=100)
-    # contact = models.IntegerField()
+    contact = models.IntegerField(default=0)
     # adhar_no = models.TextField(max_length=200)
     # pan_no = models.TextField(max_length=200)
     # a1 = customer(id=100,fname='mahesh4',lname='gaikwad4',email='ggg@gamil.com',location='pune4',state='MP')
